@@ -1,0 +1,67 @@
+.field{
+  width: 100%;
+  height: 40px;
+  padding: 5px 15px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background: rgb(31,231,131);
+}
+.field-btn{
+  width: 50%;
+  height: 40px;
+  padding: 5px 15px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background: rgb(31,231,0);
+}
+.field-btn:hover{
+  background: dodgerblue;
+}
+
+.my-body{
+  width: 80%;
+  margin-left: 50px;
+}
+.tab-body{
+  width: 100%;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.tab-body th{
+  background: rgb(69,249,39);
+  padding: 10px;
+}
+.body-stress{
+  width: 1500px;
+}
+
+.tilt{
+  color: lime;
+  font-size: 12px;
+}
+
+.td-data{
+  width:800px;
+  text-align:left;
+  border:1px solid silver; 
+  margin-top:15px; 
+  padding:10px;
+}
+
+.td-data-1{
+  border:1px solid silver; 
+  padding:10px;
+}
+
+.linky{
+  text-decoration: none;
+  color: lime;
+  font-weight: 1a5px;
+}

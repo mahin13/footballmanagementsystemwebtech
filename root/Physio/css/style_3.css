@@ -1,0 +1,89 @@
+html, body{
+  height: 100%;
+  background-color: green;
+  margin: 0px;
+}
+
+.main_content{
+  min-height: 100%;
+  margin: 0px auto;
+  border: 1px solid black;
+  width: 60%;
+  background-color: yellow;
+  padding: 5px;
+}
+
+.course_info select{
+  height: 25px;
+  font-size: 16px;
+}
+
+.course_info h1{
+  font-family: consolas;
+  color: yellow;
+  font-size: 36px;
+  text-align: center;
+}
+
+.course_info h4{
+  font-size: 16px;
+  color: white;
+  text-align: inherit;
+}
+
+.course_info table{
+  width: 100%;
+  border: 1px solid black;
+  margin: 0px auto;
+  background-color: rgb(255,255,255,0.5);
+  margin-top: 5px;
+}
+
+.course_info td, .course_info th {
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.course_info tbody tr:hover{
+  background-color: yellow;
+  cursor: pointer;
+}
+
+.course_info th{
+  font-size: 24px;
+  font-family: monospace;
+}
+
+.course_info td:last-child, .course_info th:last-child {
+  border-right: none;
+}
+
+.pagination_btns{
+  margin-top: 10px;
+}
+
+.pagination_btns button[name="prev_btn"], .pagination_btns button[name="next_btn"]{
+  height: 60px;
+  width: 160px;
+  font-weight: bold;
+  background-color: yellow;
+  font-size: 20px;
+}
+
+.pagination_btns button[name="pg_btn"], .course_info button[name="perpg_btn"]{
+  height: 25px;
+  width: 50px;
+  font-weight: bold;
+  background-color: yellow;
+  font-size: 18px;
+}
+
+.course_info button[name="perpg_btn"]{
+  width: 100px;
+}
+
+.pagination_btns button[name="prev_btn"]:hover, .pagination_btns button[name="next_btn"]:hover, .pagination_btns button[name="pg_btn"]:hover{
+  background-color: black;
+  color: yellow;
+  cursor: pointer;
+}

@@ -1,0 +1,3 @@
+
+root -> Index -> index.php
+please go to localhost/Index/index.php

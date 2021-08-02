@@ -1,0 +1,124 @@
+body {
+background-image: url(https://i2-prod.liverpoolecho.co.uk/incoming/article14531876.ece/ALTERNATES/s810/4_JS148872967.jpg);
+background-position: center;
+background-size: cover;
+text-align: center;
+align-content: center;
+
+}
+button:hover{
+background-color: green;
+
+  }
+  h1{
+color: red
+text-align: center;
+
+}
+/*button{
+  border: 5px dashed black;
+height 200 px;
+width 400px;
+padding:30px;
+background-color: aqua;
+margin: 30px;
+border-top-right-radius: 5px;
+
+}*/
+
+#main_content div{
+
+height: 200px;
+width: 150px;
+border: 2px dashed black;
+position: relative;
+
+float:right;
+right:500px;
+top:150px;
+text-decoration: none;
+color: black;
+font-weight: bold;
+font-family: consolas;
+}
+.operations{
+width: 31%;
+text-align: center;
+background-color: yellow;
+float: left;
+margin-left: 4%;
+
+}
+.operations a{
+  text decoration: none;
+  color: white;
+  display: block;
+  background-color: blue;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.operations a:hover{
+background-color:red;
+
+color:yellow;
+
+}
+
+.operations p{
+font-size: 13px;
+font-family: consolas;
+padding-bottom: 15px;
+
+}
+
+nav li{
+
+  list-style-type: none;
+  float: left;
+  margin-right: 20px;
+}
+nav{
+  background-color: black;
+  height: 40px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left:0px;
+  }
+  nav li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: consolas;
+  }
+  .cookie-container {
+  position: fixed;
+  bottom: -100%;
+  left: 0;
+  right: 0;
+  background: #2f3640;
+  color: #f5f6fa;
+  padding: 0 32px;
+  box-shadow: 0 -2px 16px rgba(47, 54, 64, 0.39);
+
+  transition: 500ms;
+}
+
+.cookie-container.active {
+  bottom: 0;
+}
+
+.cookie-container a {
+  color: #f5f6fa;
+}
+
+.cookie-btn {
+  background: #e84118;
+  border: 0;
+  color: #f5f6fa;
+  padding: 12px 48px;
+  font-size: 18px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}

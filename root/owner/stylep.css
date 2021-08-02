@@ -1,0 +1,92 @@
+body {
+background-image: url(liverpool.jpg);
+background-position: center;
+text-align: center;
+align-content: center;
+
+}
+button:hover{
+background-color: aqua;
+
+  }
+  h1{
+color: red
+text-align: center;
+
+}
+/*button{
+  border: 5px dashed black;
+height 200 px;
+width 400px;
+padding:30px;
+background-color: aqua;
+margin: 30px;
+border-top-right-radius: 5px;
+
+}*/
+
+#main_content div{
+
+height: 200px;
+width: 150px;
+border: 2px dashed black;
+position: relative;
+
+float:right;
+right:300px;
+top:150px;
+text-decoration: none;
+color: black;
+font-weight: bold;
+font-family: consolas;
+}
+.operations{
+width: 31%;
+text-align: center;
+background-color:blue;
+float: left;
+margin-left: 4%;
+
+}
+.operations a{
+  text decoration: none;
+  color: white;
+  display: block;
+  background-color: green;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.operations a:hover{
+background-color:red;
+
+color:aqua;
+
+}
+
+.operations p{
+font-size: 13px;
+font-family: consolas;
+padding-bottom: 15px;
+
+}
+
+nav li{
+
+  list-style-type: none;
+  float: left;
+  margin-right: 20px;
+}
+nav{
+  background-color: black;
+  height: 40px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left:0px;
+  }
+  nav li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: consolas;
+  }
